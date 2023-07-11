@@ -16,12 +16,12 @@ const Light = () => {
     <BulbStyles onClick={handleLight}>
       {status ? (
         <img
-          src={`/images/light-${randomColor}.svg`}
+          src={`./images/light-${randomColor}.svg`}
           alt="bulb"
           className="on"
         />
       ) : (
-        <img src={`/images/off.svg`} alt="bulb" className="off" />
+        <img src={`./images/off.svg`} alt="bulb" className="off" />
       )}
     </BulbStyles>
   );
