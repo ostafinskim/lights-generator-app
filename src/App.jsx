@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Counter from "./components/Counter";
 import { styled } from "styled-components";
-import Light from "./components/Light";
 
 function App() {
   const [counters, setCounters] = useState({
@@ -29,7 +28,6 @@ function App() {
         onChange={handleCounterChange}
         label="columns"
       />
-      <Light />
     </AppStyle>
   );
 }
