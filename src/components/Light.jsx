@@ -3,11 +3,10 @@ import { colorRandomizer } from "../lib/colorRandomizer";
 import { styled } from "styled-components";
 
 const Light = () => {
-  const [status, setStatus] = useState(false);
+  const [status, setStatus] = useState(true);
   const lightColors = ["blue", "green", "orange", "pink", "red", "yellow"];
 
   const handleLight = () => {
-    console.log(status);
     setStatus((prevStatus) => !prevStatus);
   };
 
