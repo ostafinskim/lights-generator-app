@@ -50,7 +50,7 @@ Error generating stack: `+o.message+`
     display: block;
     margin-left: 0.3rem;
   }
-`,$m=e=>{const t=Math.floor(Math.random()*(e.length-0)+0);return e[t]},Im=()=>{const[e,t]=Jt.useState(!0),n=["blue","green","orange","pink","red","yellow"],r=()=>{t(o=>!o)},l=$m(n);return D.jsx(Dm,{onClick:r,children:e?D.jsx("img",{src:`/images/light-${l}.svg`,alt:"bulb",className:"on"}):D.jsx("img",{src:"/images/off.svg",alt:"bulb",className:"off"})})},Dm=ao.div`
+`,$m=e=>{const t=Math.floor(Math.random()*(e.length-0)+0);return e[t]},Im=()=>{const[e,t]=Jt.useState(!0),n=["blue","green","orange","pink","red","yellow"],r=()=>{t(o=>!o)},l=$m(n);return D.jsx(Dm,{onClick:r,children:e?D.jsx("img",{src:`./images/light-${l}.svg`,alt:"bulb",className:"on"}):D.jsx("img",{src:"./images/off.svg",alt:"bulb",className:"off"})})},Dm=ao.div`
   img {
     max-width: 70px;
     width: 100%;
