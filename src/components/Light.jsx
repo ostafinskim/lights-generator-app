@@ -10,11 +10,13 @@ const Light = () => {
     setStatus((prevStatus) => !prevStatus);
   };
 
+  const randomColor = colorRandomizer(lightColors);
+
   return (
     <BulbStyles onClick={handleLight}>
       {status ? (
         <img
-          src={`/images/light-${colorRandomizer(lightColors)}.svg`}
+          src={`/images/light-${randomColor}.svg`}
           alt="bulb"
           className="on"
         />
